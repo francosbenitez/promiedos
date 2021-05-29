@@ -65,7 +65,7 @@ df = df.sort_values(by=["Prom"], ascending = False)
 df = df.reset_index(drop = True)
     
 # save df
-df.to_csv("Promiedos.csv")
+df.to_csv("promiedos.csv")
         
         
         
