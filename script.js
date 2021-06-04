@@ -12,7 +12,7 @@ var svg = d3.select("#my_dataviz")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // load data & set function 
-d3.csv("promedios.csv", function(data) {
+d3.csv("data/promedios.csv", function(data) {
 
     // X axis
     var x = d3.scaleLinear()
